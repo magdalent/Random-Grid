@@ -1,0 +1,90 @@
+.patagonia{
+  padding: 5rem 0;
+}
+
+.features{
+  z-index: 1;
+  border-radius: .5rem;
+  padding: 4.6rem;
+  padding-bottom: 13rem;
+  font-family: Helvetica;
+  background-size: cover;
+  position: relative;
+  transition: all .4s;
+
+  
+  &:hover::after{
+    font-size: .8rem;
+    position: absolute;
+    top: 7rem;
+    max-width: 70%;
+    left: 1.4rem;
+    color: white;
+    content: "Learn how to fix cherished gear and suprese a loved one with something better than new";
+  }
+
+
+  &:hover{
+    z-index: -1;
+    filter: brightness(50%);
+    transform: scale(1.12);
+  }
+
+ 
+  &__button{
+    z-index: 1;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: .3rem solid white;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 13rem;
+    left: 1.2rem;
+
+   
+  }
+    
+
+    &__heading{
+      position: absolute;
+      top: 3rem;
+      left: 1.5rem;
+      color: white;
+
+     
+    }
+  
+    
+}
+
+
+
+
+.img1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.7)), url('img/thomas-kelley-JoH60FhTp50-unsplash.jpg');
+}
+
+
+.img2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.7)), url('img/casey-horner-4rDCa5hBlCs-unsplash.jpg');
+
+}
+.img3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.7)), url('img/goutham-krishna-h5wvMCdOV3w-unsplash.jpg');
+
+
+}
+.img4{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.7)), url('img/justin-kauffman-a8lTjWJJgLA-unsplash.jpg');
+
+}
+
+
+.features:hover > .features__button{
+  background-color: white;
+  color:black;
+}
+
+
